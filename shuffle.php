@@ -40,7 +40,7 @@
         $songs = [];
         $search = '';
         $search_arr = [];
-        if (!isset($fileDir)){$fileDir = "../Muziek/";}
+        if (!isset($fileDir)){$fileDir = "../Muziek1/";}
         $files = scandir($fileDir);
 
         // ! Make Array $songs ---- READ DIR -----------
